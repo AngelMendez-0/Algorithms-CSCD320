@@ -1,0 +1,16 @@
+Why this is faster than brute force?
+
+Brute force would try every possible way to align the two sequences by inserting gaps, score each one, and return the best. The number of possible alignments grows exponentially with sequence length. That can become very time consuming as the number of possible routes grow. 
+
+Instead I used dynamic programming. The idea is to break the big problem into smaller ones and save the answers so you never solve the same small problem twice. This means you can access them again at any other time. 
+
+The subproblem is: what is the best score for aligning the first i characters of sequence 1 with the first j characters of sequence 2? I store that answer in a table cell dp[i][j].
+
+To fill in dp[i][j] I only need to look at three already-computed neighbors:
+  - dp[i-1][j-1] align both characters match or mismatch
+  - dp[i-1][j] put a gap in sequence 2
+  - dp[i][j-1] put a gap in sequence 1
+
+I take the max of those three options. Since I fill the table left to right, top to bottom, those three neighbors are always ready when I need them.
+
+Every cell is computed exactly once. With sequences of length m and n, that is m*n total calculations instead of an exponential number. After the table is full I trace back through it to reconstruct the alignment.

@@ -1,0 +1,116 @@
+{
+	"Opie" : {
+		"Toby" : 0.5,
+		"Sheldon" : 0.5,
+		"Jade" : 1,
+		"Shtalvi" : 3
+	},
+	"Toby" : {
+		"Opie" : 0.5,
+		"Sheldon" : 0.5,
+		"Sazerac" : 4.5,
+		"Jade" : 4.5,
+		"Sylas" : 4.5,
+		"Mitzi" : 4.5,
+		"Koach" : 4.5,
+		"Shtalvi" : 2
+	},
+	"Sheldon" : {
+		"Opie" : 0.5,
+		"Toby" : 0.5,
+		"Sazerac" : 4.5,
+		"Jade" : 4.5,
+		"Sylas" : 0.5,
+		"Mitzi" : 0.5,
+		"Koach" : 0.5,
+		"Dr. Sheldon Cooper" : 0,
+		"Shtalvi" : 2
+	},
+	"Sazerac" : {
+		"Toby" : 1.5,
+		"Sheldon" : 1.5,
+		"Jade" : 5,
+		"Sylas" : 2,
+		"Mitzi" : 2,
+		"Koach" : 2
+	},
+	"Jade" : {
+		"Opie" : 2,
+		"Toby" : 2,
+		"Sheldon" : 2,
+		"Sazerac" : 5,
+		"Sylas" : 2,
+		"Mitzi" : 2,
+		"Koach" : 2
+	},
+	"Sylas" : {
+		"Toby" : 0.5,
+		"Sheldon" : 0.5,
+		"Sazerac" : 0.5,
+		"Jade" : 0.5,
+		"Mitzi" : 0.5,
+		"Koach" : 5
+	},
+	"Mitzi" : {
+		"Toby" : 1,
+		"Sheldon" : 1,
+		"Sazerac" : 1,
+		"Jade" : 1,
+		"Sylas" : 1,
+		"Koach" : 1
+	},
+	"Koach" : {
+		"Toby" : 0.5,
+		"Sheldon" : 0.5,
+		"Sazerac" : 0.5,
+		"Jade" : 0.5,
+		"Sylas" : 0.5,
+		"Mitzi" : 0.5
+	},
+	"Dr. Sheldon Cooper" : {
+		"Sheldon" : 0
+	},
+	"Shtalvi" : {
+		"Opie" : 2.5,
+		"Toby" : 2.5,
+		"Sheldon" : 2.5
+	},
+	"Kaiser" : {
+		"Butkus" : 0.5,
+		"Caspian" : 1,
+		"Abby" : 0.5,
+		"Angel" : 2
+	},
+	"Butkus" : {
+		"Kaiser" : 1,
+		"Caspian" : 1,
+		"Abby" : 0.5,
+		"Angel" : 2
+	},
+	"Caspian" : {
+		"Bogart" : 5,
+		"Kaiser" : 1,
+		"Butkus" : 1,
+		"Abby" : 0.5,
+		"Angel" : 1
+	},
+	"Abby" : {
+		"Bogart" : 1.5,
+		"Kaiser" : 1.5,
+		"Butkus" : 1.5,
+		"Caspian" : 1.5
+	},
+	"Angel" : {
+		"Bogart" : 2,
+		"Kaiser" : 2,
+		"Butkus" : 2,
+		"Caspian" : 2
+	},
+	"Bogart" : {
+		"Kaiser" : 2,
+		"Butkus" : 2,
+		"Caspian" : 1,
+		"Abby" : 0.5,
+		"Angel" : 2
+	}
+}

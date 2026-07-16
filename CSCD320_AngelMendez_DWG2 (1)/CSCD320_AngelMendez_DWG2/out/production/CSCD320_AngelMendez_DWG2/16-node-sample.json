@@ -1,0 +1,113 @@
+{
+	"Ray" : {
+		"Cray" : 0.5,
+		"Noita" : 1,
+		"Athens" : 1
+	},
+	"Cray" : {
+		"Ray" : 0.5,
+		"Noita" : 2,
+		"Athens" : 2,
+		"Odelle" : 2,
+		"Ophelia" : 2
+	},
+	"Noita" : {
+		"Ray" : 1,
+		"Cray" : 2,
+		"Athens" : 1
+	},
+	"Athens" : {
+		"Ray" : 1,
+		"Cray" : 2,
+		"Noita" : 1
+	},
+	"Beck" : {
+		"Cory" : 1,
+		"Cinnamon" : 0.5,
+		"Paxton" : 0.5,
+		"Skya" : 5,
+		"Lanni" : 2,
+		"Odelle" : 2
+	},
+	"Cory" : {
+		"Beck" : 1,
+		"Cinnamon" : 1,
+		"Paxton" : 2,
+		"Skya" : 5,
+		"Lanni" : 1,
+		"Odelle" : 2
+	},
+	"Cinnamon" : {
+		"Beck" : 0.5,
+		"Cory" : 0.5,
+		"Paxton" : 1,
+		"Skya" : 3,
+		"Lanni" : 0.5,
+		"Odelle" : 2
+	},
+	"Paxton" : {
+		"Beck" : 0.5,
+		"Cory" : 1,
+		"Cinnamon" : 1,
+		"Skya" : 3,
+		"Lanni" : 3,
+		"Odelle" : 1.5
+	},
+	"Skya" : {
+		"Beck" : 5,
+		"Cory" : 4.5,
+		"Cinnamon" : 5,
+		"Paxton" : 3,
+		"Lanni" : 5,
+		"Odelle" : 3
+	},
+	"Lanni" : {
+		"Beck" : 1,
+		"Cory" : 1,
+		"Cinnamon" : 0.5,
+		"Paxton" : 3,
+		"Skya" : 2,
+		"Odelle" : 3
+	},
+	"Odelle" : {
+		"Beck" : 2,
+		"Cory" : 2,
+		"Cinnamon" : 2,
+		"Paxton" : 1,
+		"Skya" : 3,
+		"Lanni" : 3,
+		"Ophelia" : 0.5,
+		"Cray" : 2
+	},
+	"Ophelia" : {
+		"Felix" : 1.5,
+		"Benoit" : 2,
+		"Constance" : 1,
+		"Rowena" : 1.5,
+		"Odelle" : 0.5
+	},
+	"Felix" : {
+		"Ophelia" : 2,
+		"Benoit" : 2,
+		"Constance" : 2,
+		"Rowena" : 1.5
+	},
+	"Benoit" : {
+		"Ophelia" : 2,
+		"Felix" : 2,
+		"Constance" : 0.5,
+		"Rowena" : 2
+	},
+	"Constance" : {
+		"Ophelia" : 1,
+		"Felix" : 3,
+		"Benoit" : 0.5,
+		"Rowena" : 2
+	},
+	"Rowena" : {
+		"Ophelia" : 2,
+		"Felix" : 2,
+		"Benoit" : 2,
+		"Constance" : 2
+	}
+}
